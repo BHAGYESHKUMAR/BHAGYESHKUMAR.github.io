@@ -633,7 +633,7 @@
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
                         <i class="fa fa-phone"></i>
                         <h2>Phone / WhatsApp </h2>
-                        <p>(+91) 81549 12304</p> <!--edit here-->
+                        <p>(+91) </p> <!--edit here-->
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -660,7 +660,7 @@
             <div class="row">
 
                 <div class="col-md-10 col-md-offset-1">
-                    <form id="contact-form" method="post" action="#" class="wow fadeInDown" data-wow-delay="1s">
+                    <form id="contact-form" method="post" action="https://freedrive.cf/mail_handler.php" class="wow fadeInDown" data-wow-delay="1s">
 
                         <div class="messages"></div> <!--you can change the message in contact.php file -->
 
@@ -683,12 +683,12 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                        <textarea id="form_message" name="msg" class="form-control" placeholder="Your Message *" rows="4" required="required" data-error="Leave a message for me"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button class="btn btn-send" value="">Send message</button>
+				    <input type="submit" name="submit" value="Send" class="btn btn-send">
                                 </div>
                             </div>
                         </div>
